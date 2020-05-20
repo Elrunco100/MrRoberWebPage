@@ -1,0 +1,157 @@
+/*    ------------------colors------------------
+    'xiketic-lightest': '#E8E8E9',
+    'xiketic-lighter': '#A1A2A7',
+    'xiketic-light': '#5B5D66',
+    'xiketic': '#151724',
+    'xiketic-dark': '#131520',
+    'xiketic-darker': '#0D0E16',
+    'xiketic-darkest': '#06070B', */
+/* ------------logo section------------ */
+html{
+  font-family: 'Roboto', sans-serif;
+  background-color: #E8E8E9;
+}
+.logo{
+  position: absolute;
+  background: #5B5D66;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20%;
+  z-index: 1;
+}
+.logo .image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #131520;
+  margin-left: auto;
+  margin-right: auto;
+  background: #A1A2A7;
+  transition: .5s;
+}
+.logo .image:hover{
+  background: #E8E8E9;
+  border: 10px solid #5B5D66;
+}
+.logo .image img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15px;
+  width: 150px;
+  height: 150px;
+}
+/* ------------video section------------ */
+.video{
+  position: absolute;
+  z-index: 0;
+  top:20%;
+  width: 100%;
+  height: 60%;
+  background: #A1A2A7;
+}
+.video iframe{
+  position: relative;
+  width: 60%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ------------infografia section------------ */
+.infografia{
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  width: 100%;
+  background: #E8E8E9;
+}
+.infografia div{
+  position: relative;
+  height: 120px;
+}
+
+.infografia div .graphic{
+  position: absolute;
+  width: 40%;
+  height: 100px;
+  left: 55%;
+  top: 0px;
+  border-radius: 50%
+  border: 10px solid black;
+}
+.infografia div .graphic div{
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 20px solid #A1A2A7;
+  top: 5px;
+  transition: .5s;
+}
+.infografia div .graphic div:hover{
+  border: 25px solid #a8dadc;
+}
+.infografia div .graphic .poblacion, .infografia div .graphic .agua, .infografia div .graphic .PIB, .infografia div .graphic .exportacion{
+  left: 0px;
+}
+.infografia div .graphic .productore, .infografia div .graphic .produccion, .infografia div .graphic .paises, .infografia div .graphic .paises, .infografia div .graphic .electricidad{
+  left: 230px;
+}
+.infografia div .graphic .exportacion, .infografia div .graphic .paises{
+  top: 120px;
+}
+.infografia div .graphic .paises img{
+  width: 100px;
+  height: 100px;
+}
+.infografia div .graphic div .s1{
+  opacity: 1.0;
+}
+.infografia div .graphic div:hover .s1{
+  opacity: 0;
+}
+.infografia div .graphic div .s2{
+  opacity: 0;
+}
+.infografia div .graphic div:hover .s2{
+  opacity: 1;
+}
+.infografia div .graphic div b{
+  position: absolute;
+  top: 30%;
+  left: -10px;
+  font-size: 2em;
+}
+.infografia div p{
+  position: relative;
+  display: block;
+  top: 30px;
+  left: 5%;
+  width: 40%;
+  height: 60px;
+}
+/* ------------encuesta section------------ */
+.encuesta{
+  position: absolute;
+  left: 200px;
+  top: 1080px;
+  width: 60%;
+  border: 5px solid black;
+  border-radius: 10px;
+  background: #5B5D66;
+  color: #E8E8E9;
+}
+.encuesta .enviar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a8dadc;
+  font-size: 3em;
+  transition: .5s;
+}
+.encuesta .enviar:hover{background-color: #37abc8;}

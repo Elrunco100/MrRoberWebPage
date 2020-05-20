@@ -2,11 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MrRober</title>
+    <link rel="shortcut icon" href="static/MrRober-IsoTipo.png" />
+    <link rel="stylesheet" href="master.css">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="logo">
-      <img src="static/MrRober-IsoTipo.png" alt="Mrober" width="100" height="100">
+      <div class="image">
+        <img src="static/MrRober-IsoTipo.png" alt="Mrober">
+      </div>
     </div>
     <div class="video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/rP2NSyWUc1U"
@@ -18,30 +23,35 @@
         <p>Nuestro esquipos <b>no</b> afecta el empleo en las áreas impactadas,
         al contrario promueve la inversión y busqueda de nuevas soluciones.</p>
 
-        <div class="poblacion"></div>
-        <div class="productore"></div>
-        <div class="empleabilidad"></div>
+        <div class="graphic">
+          <div class="poblacion"><b class="s1">Población <br> agricola</b><b class="s2">22.7%</b></div>
+          <div class="productore"><b class="s1">Empleabilidad <br> en el campo</b> <b class="s2">2.9%</b></div>
+        </div>
       </div>
 
       <div>
         <p>No es necesaria la construcción de estructuras espacializadas para su desarrollo,
         ni inversión en el acceso a nuevos servicios.</p>
 
-        <div class="agua"></div>
-        <div class="electricidad"></div>
+        <div class="graphic">
+          <div class="agua"><b class="s1">Servicio <br>de agua</b><b class="s2">86% </b> </div>
+          <div class="electricidad"><b class="s1">Servicio <br>eléctrico</b><b class="s2">95% </b></div>
+        </div>
       </div>
 
       <div>
         <p>Promuebe el crecimiento de la producción de alimentos de alta demanda a nivel
         nacional e internacional.</p>
 
-        <div class="PIB"></div>
-        <div class="produccion"></div>
-        <div class="exportacion"></div>
-        <div class="paises"></div>
+        <div class="graphic">
+          <div class="PIB"><b class="s1">PIB</b><b class="s2">1.5% de <br>crecimiento </b> </div>
+          <div class="produccion"><b class="s1">Producción</b><b class="s2">3'261.501 <br> toneladas</b> </div>
+          <div class="exportacion"><b class="s1">Exportación</b><b class="s2">1.331 <br> toneladas</b> </div>
+          <div class="paises"><b class="s1">Paises</b><img src="static/flags.png" alt="flags.png" class="s2"> </div>
+        </div>
       </div>
     </div>
-    <div class="enquesta">
+    <div class="encuesta">
       <h2>¿Quieres participar por una prueba gratuita de nuestros productos?*</h2>
       <p>Participa llenando la siguiente encuessta:</p>
       <br>
@@ -138,6 +148,10 @@
            <td><input type="talvez" name="socio" checked> No</td>
          </tr>
        </table><br>
+       <input type="button" name="" value="Enviar" class="enviar">
+       <br>
+       <p>*El manejo de los datos e información referente a nuestras ofertas las pogra encontrar en:
+         <a href="#">terminos y condiciones.</a>  </p>
 
     </div>
   </body>
